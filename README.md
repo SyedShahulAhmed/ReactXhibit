@@ -16,7 +16,7 @@
 
 ## 🌐 Live Demo  
 
-👉 [View ReactXhibit Live!](https://react-project-show-case.vercel.app/)  
+👉 [View ReactXhibit Live!](https://reactxhibit.vercel.app/)  
 
 ---  
 
