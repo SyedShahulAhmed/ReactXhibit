@@ -61,7 +61,7 @@ Follow these steps to run the project locally:
 
 ### 🔍 Project Details Page  
 
-![Project Details Page Screenshot](./src/Preview/img2.png)  
+![Project Details Page Screenshot](./src/Preview/image2.png)  
 
 ---  
 
