@@ -15,6 +15,7 @@ import imgD12 from '../assets/Desktopimages/img12-D.png'
 import imgD13 from '../assets/Desktopimages/img13-D.png'
 import imgD14 from '../assets/Desktopimages/img14-D.png'
 import imgD15 from '../assets/Desktopimages/img15-D.png'
+import imgD16 from '../assets/Desktopimages/img16-D.png'
 
 
 
@@ -35,6 +36,7 @@ import imgM12 from '../assets/MobileImages/img12-M.png'
 import imgM13 from '../assets/MobileImages/img13-M.png'
 import imgM14 from '../assets/MobileImages/img14-M.png'
 import imgM15 from '../assets/MobileImages/img15-M.png'
+import imgM16 from '../assets/MobileImages/img16-M.jpg'
 
 
 //Videos
@@ -54,6 +56,7 @@ import video12 from '../assets/videos/video12.mp4'
 import video13 from '../assets/videos/video13.mp4'
 import video14 from '../assets/videos/video14.mp4'
 import video15 from '../assets/videos/video15.mp4'
+import video16 from '../assets/videos/video16.mp4'
 
 
 const projects = [
@@ -236,7 +239,19 @@ const projects = [
     github: "https://github.com/SyedShahulAhmed/ReactProjects/tree/main/SpotifyClone",
     bigDescription:
       "The Spotify Clone project is a music streaming app where users can browse songs, albums, and popular artists. Users can also view detailed information about albums and explore tracks in each album. This app mimics a real-world music streaming platform, offering a rich and interactive experience with clean design and smooth navigation, ideal for music lovers looking to explore a variety of artists and their albums.",
-  },  
+  },
+  {
+    id: 16,
+    name: "Netflix Clone",
+    title: "Netflix Clone",
+    miniDescription: "A simple Netflix clone with login and signup functionality.",
+    img: imgD16,
+    Mimg: imgM16,
+    video: video16,
+    github: "https://github.com/SyedShahulAhmed/Netflix.git",
+    bigDescription:
+      "The Netflix Clone project is a basic video streaming app with a focus on user authentication. It includes login and signup functionality, allowing users to create accounts and securely access the platform. This simple clone showcases React development skills while providing a foundation for building more complex streaming applications.",
+  },    
 ];
 
 export default projects
