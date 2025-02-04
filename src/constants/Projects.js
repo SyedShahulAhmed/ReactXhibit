@@ -16,6 +16,7 @@ import imgD13 from '../assets/Desktopimages/img13-D.png'
 import imgD14 from '../assets/Desktopimages/img14-D.png'
 import imgD15 from '../assets/Desktopimages/img15-D.png'
 import imgD16 from '../assets/Desktopimages/img16-D.png'
+import imgD17 from '../assets/Desktopimages/img17-D.png'
 
 
 
@@ -37,6 +38,7 @@ import imgM13 from '../assets/MobileImages/img13-M.png'
 import imgM14 from '../assets/MobileImages/img14-M.png'
 import imgM15 from '../assets/MobileImages/img15-M.png'
 import imgM16 from '../assets/MobileImages/img16-M.jpg'
+import imgM17 from '../assets/MobileImages/img17-M.jpg'
 
 
 //Videos
@@ -57,6 +59,7 @@ import video13 from '../assets/videos/video13.mp4'
 import video14 from '../assets/videos/video14.mp4'
 import video15 from '../assets/videos/video15.mp4'
 import video16 from '../assets/videos/video16.mp4'
+import video17 from '../assets/videos/video17.mp4'
 
 
 const projects = [
@@ -251,7 +254,20 @@ const projects = [
     github: "https://github.com/SyedShahulAhmed/Netflix.git",
     bigDescription:
       "The Netflix Clone project is a basic video streaming app with a focus on user authentication. It includes login and signup functionality, allowing users to create accounts and securely access the platform. This simple clone showcases React development skills while providing a foundation for building more complex streaming applications.",
-  },    
+  },
+  {
+    id: 17,
+    name: "PlayTube",
+    title: "PlayTube",
+    miniDescription: "A simple YouTube clone with video playback functionality.",
+    img: imgD17,
+    Mimg: imgM17,
+    video: video17,
+    github: "https://github.com/SyedShahulAhmed/ReactXhibit.git",
+    bigDescription:
+      "The PlayTube project is a basic YouTube clone that integrates with the YouTube API to fetch and display videos. It features a responsive design,  and smooth playback, providing users with an experience similar to YouTube. This project demonstrates API integration in React while offering a strong base for building more advanced video streaming applications.",
+},
+   
 ];
 
 export default projects
